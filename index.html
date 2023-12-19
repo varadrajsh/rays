@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <title>Home - Rays Academy</title>
+</head>
+
+<body>
+    <!-- Nav Bar Section -->
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+            <div class="navbar-brand"><a href="#"><img class="img-fluid" src="images/header-logo.svg" alt=""></a></div>
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+                <span class="my-1 mx-2 close">X</span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav coll d-md-none d-sm-block ">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#course-details">Course Details</a>
+                    <a class="nav-link" href="#upcomingBatches">Upcoming Batches</a>
+                    <button class="enquire-btn w-75  " data-bs-toggle="modal" data-bs-target="#enquiryModal">ENQUIRE NOW
+                        <i class="bi bi-arrow-right d-flex "></i></button>
+                </div>
+            </div>
+            <div
+                class="navbar-nav ms-auto d-none d-md-flex gap-lg-5 p-lg-5 justify-content-center align-items-lg-center ">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#course-details">Course Details</a>
+                <a class="nav-link" href="#upcomingBatches">Upcoming Batches</a>
+                <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                    ENQUIRE NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Headline Section -->
+    <div id="home" class="container ">
+        <div class="row headline">
+            <div class="col-md-7 col-sm-8 ">
+                <p class="title">Online/Offline</p>
+                <p class="sub-title">LEARN LANGUAGES WITH ONLINE COURSES</p>
+                <p class="text">
+                    Expand your ability to communicate with people across the globe. Learn Spanish, German &
+                    English grammar, vocabulary, and more with online courses.
+                </p>
+                <div class="buttons-grp float-start flex-lg-row my-4 ">
+                    <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                        ENQUIRE
+                        NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                    </button>
+                    <label class="or">OR</label>
+                    <button class="callus-btn mx-3 ">CALL US AT <span>98863 90628</span></button>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-4">
+                <div class="pt-3">
+                    <img class="woman img-fluid " src="images/woman.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get Prepared For  -->
+    <div class="container get-prepared text-center">
+        <div class="">
+            <p class="title">Get Prepared For</p>
+            <p class="text">
+                We are dedicated to making language learning and enriching an immersive experience. Our
+                mission is to empower its students with the skills to communicate effectively in the language choosen.
+            </p>
+        </div>
+        <div class="row ">
+            <div class="col-md-12 ">
+                <img class="img-fluid px-3 my-4" src="images/siele.png" alt="">
+                <img class="img-fluid px-3 my-4" src="images/dele.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Counter Section -->
+
+
+    <div class="container admission-open-bg">
+        <div class="col-sm-12 text-center admission-text mb-5">
+            Admissions Open
+        </div>
+        <div class="row" style="padding: 1rem;">
+            <div class="col-sm-12 enquiryForm">
+                <form class="form-bg">
+                    <div class="row admission-form mt-3">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="txtName" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="txtMobileNumber"
+                                    placeholder="Mobile Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 mb-3">
+                            <div class="form-group">
+                                <select id="inputCourse" class="form-control">
+                                    <option value="-1" selected>-- Select Course --</option>
+                                    <option value="1">German</option>
+                                    <option value="2">Spanish</option>
+                                    <option value="3">English</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <select id="inputLevel" class="form-control mb-3">
+                                <option value="-1" selected>-- Select Level --</option>
+                                <option value="1">A1</option>
+                                <option value="2">A2</option>
+                                <option value="3">A3</option>
+                                <option value="4">B1</option>
+                                <option value="5">B2</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <button id="btnSubmit" type="button" onclick="SubmitInquiry()"
+                                class="btn-inquiry-submit px-5 py-2 border-0 w-100 h-100">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row counter">
+                <div class="col-md-4 d-flex justify-content-center align-items-center  ">
+                    <p class="count mx-2 ">2045</p>
+                    <p class="title">Students<br>Enrolled</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                    <p class="count mx-2 ">598</p>
+                    <p class="title">Current<br>Sudents</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                    <p class="count mx-2 ">966</p>
+                    <p class="title">Community<br>Members</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Why Rays Academy Section -->
+    <div class="container why-rays ">
+        <div>
+            <p class="title">Why Rays Academy?</p>
+            <p class="text">
+                We are dedicated to making language learning and enriching an immersive experience. Our
+                mission is to empower its students with the skills to
+                communicate effectively in the language choosen.
+            </p>
+        </div>
+        <div class="row  mx-auto ">
+            <div class="col-md-4 g-3   ">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class=" card-icon img-fluid " src="images/wr-icon-2.svg" alt="">
+                        <h5 class="card-title">Immersive Approach</h5>
+                        <div class="underline"></div>
+                        <p class="card-text py-3 ">
+                            We believe in a communicative and immersive approach to learning.
+                            Our interactive lessons emphasize real-world conversations, cultural context, and practical
+                            application, ensuring our students gain the confidence to use the language in everyday
+                            situations." cultural context, and practical
+                            application, ensuring our students gain the confidence to use the language in everyday
+                            situations."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 g-3 ">
+                <div class="card h-100 ">
+                    <div class="card-body ">
+                        <img class=" card-icon img-fluid " src="images/wr-icon-3.svg" alt="">
+                        <h5 class="card-title my-3 ">Tailored Programs</h5>
+                        <div class="underline"></div>
+                        <p class="card-text py-3">
+                            Our institute offers a comprehensive range of courses, from beginner
+                            to advanced levels, catering to different learning needs. We also provide tailored programs
+                            for specific goals, such as business communication or travel language essentials.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 g-3 ">
+                <div class="card h-100">
+                    <div class="card-body ">
+                        <img class=" card-icon img-fluid " src="images/wr-icon-1.svg" alt="">
+                        <h5 class="card-title my-3 ">Passionate Mentors</h5>
+                        <div class="underline"></div>
+                        <p class="card-text py-3">
+                            Our team of experienced and passionate language instructors are Indian and native speakers
+                            and certified professionals.They bring a wealth of cultural knowledge and teaching expertise
+                            to every class. They bring a wealth of cultural knowledge and teaching expertise to every
+                            class
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 g-3 ">
+                <div class="card h-100">
+                    <div class="card-body ">
+                        <img class=" card-icon img-fluid " src="images/wr-icon-4.svg" alt="">
+                        <h5 class="card-title my-3 ">Limited Students</h5>
+                        <div class="underline"></div>
+                        <p class="card-text py-3">
+                            We keep our class sizes small to ensure personalized attention for
+                            each student. Our interactive online platform, combined with in-person workshops, enables
+                            dynamic learning experiences that cater to various learning styles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 g-3 ">
+                <div class="card h-100">
+                    <div class="card-body ">
+                        <img class=" card-icon img-fluid " src="images/wr-icon-5.svg" alt="">
+                        <h5 class="card-title my-3">Community Access</h5>
+                        <div class="underline"></div>
+                        <p class="card-text py-3">
+                            We're not just an institute; we're a language learning community.
+                            We organize cultural events, language exchange meetups, and workshops that provide our
+                            students with opportunities to practice their language skills in real-life settings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 g-3 ">
+                <div class="card h-100">
+                    <div class="card-body ">
+                        <img class=" card-icon img-fluid " src="images/wr-icon-6.svg" alt="">
+                        <h5 class="card-title my-3 ">Get Certified</h5>
+                        <div class="underline"></div>
+                        <p class="card-text py-3">
+                            Course completion certificate will be provided. They bring a wealth of
+                            cultural
+                            knowledge and
+                            teaching expertise to every class. They bring a wealth of cultural
+                            knowledge and
+                            teaching expertise to every class
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Course Details Section -->
+    <div id="course-details"></div>
+    <div id="courseDetails" class="container course-details mt-5">
+        <div>
+            <p class="title">Course Details</p>
+            <p class="text">
+                At RAYS we follow the structure according to the <span>
+                    CEFR (The Common European Framework
+                    of Reference
+                    for Languages).
+                </span>
+            </p>
+        </div>
+
+        <div class="tab">
+            <div class="d-flex col-md-5 col-xs-4 gap-3 mx-lg-5 ">
+                <button class="btn btn-outline-primary active flex-grow-1 my-3"
+                    onclick="location.href='#spanish-course'">
+                    Spanish
+                </button>
+                <button class="btn  btn-outline-primary flex-grow-1 my-3" onclick="location.href='#german-course'">
+                    German
+                </button>
+                <button class="btn btn-outline-primary flex-grow-1 my-3" onclick="location.href='#english-course'">
+                    English
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="spanish-course" class="container country">
+        <div class="top d-flex my-4">
+            <div class="">
+                <img class="img-fluid px-2" src="images/spanish-flag.png" alt="">
+            </div>
+            <div class="mt-3">
+                <img class="img-fluid" src="images/Spanish-name.png" alt="">
+                <p class="spanish-name">Syllabus - AULA</p>
+            </div>
+        </div>
+        <div>
+            <p class="title">What you will learn</p>
+            <p class="sub-title">Reading, Writing, Listening & Speaking</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex">
+                        <div class="col-lg-6 px-1">
+                            <img class="img-fluid mb-3" src="images/A1.png" alt="">
+                            <p class="text">
+                                Understand and use very frequently-used everyday expressions as well as simple phrases
+                                to meet immediate needs. Introduce him/herself and others and can ask and answer
+                                questions.
+                            </p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">13200</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex mb-2">
+                        <div class="col-lg-6 px-1">
+                            <img class="img-fluid mb-3" src="images/A2.png" alt="">
+                            <p class="text">
+                                Understand sentences and frequently-used expressions related to the areas of experience
+                                most immediately relevant to him/her.
+                            </p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4 pb-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">14200</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100 ">
+                    <div class="card-body d-lg-flex">
+                        <div class="col-lg-6 px-1">
+                            <img class="img-fluid mb-3" src="images/B1.png" alt="">
+                            <p class="text">
+                                Here students able to understand the main points of clear texts in standard language if
+                                they are about topics with which they are familiar, whether in work, study or leisure
+                                contexts. Can cope with most of the situations that might arise on a trip to areas where
+                                the language is used.
+                            </p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">14550</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-3 " src="images/B2.png" alt="">
+                            <p class="text">Understand the main ideas of complex text on both concrete and abstract
+                                topics, including technical discussions in their field of specialisation. Interact with
+                                a degree of fluency and spontaneity that makes regular interaction with native speakers
+                                possible without strain.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">16000</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-2 " src="images/C1.png" alt="">
+                            <p class="text">Students can understand a wide range of more demanding, longer texts, and
+                                recognise implicit meaning in them. Express him/herself fluently and spontaneously
+                                without much obvious searching for the right expression. Use language flexibly and
+                                effectively for social, academic and professional purposes.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">18000</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex mb-5">
+                        <div class="col-lg-6 px-1 mb-4">
+                            <img class="img-fluid mb-1" src="images/C2.png" alt="">
+                            <p class="text pb-2">One can negotiate and persuade effectively at senior management level
+                                in international business settings. Understand the main ideas of complex pieces of
+                                writing.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">18000</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid fasttrack my-5">
+            <div class="row pt-2">
+                <div class="col-lg-4 col-xs-12 d-lg-flex justify-content-around   ">
+                    <h3 class="title1">Fast Track</h3>
+                    <div class=" vr h-75 d-none d-md-block "></div>
+                </div>
+                <div class="col-md-4 col-xs-12 d-flex flex-column ">
+                    <p class="duration lh-md">Course Duration</p>
+                    <p class="hours">30<span>hours</span></p>
+                </div>
+                <div class="col-lg-4 col-xs-12 d-flex flex-column ">
+                    <p class="currency">INR</p>
+                    <p class="price">8500</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn-grp my-5  ">
+            <div>
+                <p class="text-center button-text ">Please contact us for instalments or discounts</p>
+            </div>
+            <div class="buttons-grp flex-lg-row my-4">
+                <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                    ENQUIRE NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                </button>
+                <label class="or">OR</label>
+                <button class="callus-btn ">CALL US AT <span>98863 90628</span></button>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div id="german-course" class="container country">
+        <div class="top d-flex my-5 ">
+            <div class="">
+                <img class="img-fluid px-3" src="images/german-flag.png" alt="">
+            </div>
+            <div class="mt-3">
+                <img class="img-fluid" src="images/German-name.png" alt="">
+            </div>
+        </div>
+        <div>
+            <p class="title">What you will learn</p>
+            <p class="sub-title">Reading, Writing, Listening & Speaking</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-3 " src="images/A1.png" alt="">
+                            <p class="text">Understand and use very frequently-used everyday expressions as well as
+                                simple phrases to meet immediate needs. Introduce him/herself and others and can ask and
+                                answer questions.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">14250</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-3 " src="images/A2.png" alt="">
+                            <p class="text">Understand sentences and frequently-used expressions related to the areas of
+                                experience most immediately relevant to him/her</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">15250</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100 ">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-3 " src="images/B1.png" alt="">
+                            <p class="text">Here students able to understand the main points of clear texts in standard
+                                language if they are about topics with which they are familiar, whether in work, study
+                                or leisure contexts. Can cope with most of the situations that might arise on a trip to
+                                areas where the language is used.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">16500</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100 ">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-3 " src="images/B2.png" alt="">
+                            <p class="text">Understand the main ideas of complex text on both concrete and abstract
+                                topics, including technical discussions in their field of specialisation. Interact with
+                                a degree of fluency and spontaneity that makes regular interaction with native speakers
+                                possible without strain.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">17500</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100 ">
+                    <div class="card-body d-lg-flex  ">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid mb-1" src="images/C1.png" alt="">
+                            <p class="text pt-2">students can understand a wide range of more demanding, longer texts,
+                                and recognise implicit meaning in them. Express him/herself fluently and spontaneously
+                                without much obvious searching for the right expression. Use language flexibly and
+                                effectively for social, academic and professional purposes.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">18500</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+            <div class="col-lg-6 g-4">
+                <div class="card h-100 ">
+                    <div class="card-body d-lg-flex pb-4">
+                        <div class="col-lg-6 px-1 ">
+                            <img class="img-fluid" src="images/C2.png" alt="">
+                            <p class="text pt-2">One can negotiate and persuade effectively at senior management level
+                                in international business settings. Understand the main ideas of complex pieces of
+                                writing.</p>
+                        </div>
+                        <img class="d-none d-lg-block img-fluid pb-5" src="images/vertical-line.png" alt="">
+                        <hr class="d-block d-md-none">
+                        <div class="col-lg-6 px-4">
+                            <p class="duration">Course Duration</p>
+                            <p class="hours">70<span>hours</span> </p>
+                            <p class="currency">INR</p>
+                            <p class="price">18500</p>
+                            <p class="text">
+                                Soft copy of books and certificate will be provided
+                            </p>
+                        </div>
+                    </div>
+                    <p class="bottom-text">For details regarding A1.1, A1.2 levels, Please talk to us</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid fasttrack my-5">
+            <div class="row pt-2">
+                <div class="col-lg-4 col-xs-12 d-lg-flex justify-content-around   ">
+                    <h3 class="title1">Fast Track</h3>
+                    <div class=" vr h-75 d-none d-md-block "></div>
+                </div>
+                <div class="col-md-4 col-xs-12 d-flex flex-column ">
+                    <p class="duration lh-md">Course Duration</p>
+                    <p class="hours">30<span>hours</span></p>
+                </div>
+                <div class="col-lg-4 col-xs-12 d-flex flex-column ">
+                    <p class="currency">INR</p>
+                    <p class="price">8500</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn-grp my-5">
+            <div>
+                <p class="text-center button-text ">Please contact us for instalments or discounts</p>
+            </div>
+            <div class="buttons-grp flex-lg-row my-4">
+                <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                    ENQUIRE NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                </button>
+                <label class="or">OR</label>
+                <button class="callus-btn ">CALL US AT <span>98863 90628</span></button>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div id="english-course" class="container country">
+        <div class="top d-flex my-4 ">
+            <div class="mt-3">
+                <img class="img-fluid " src="images/english-name.png" alt="">
+            </div>
+        </div>
+        <div>
+            <p class="title">What you will learn</p>
+            <p class="sub-title">Reading, Writing, Listening & Speaking</p>
+        </div>
+        <div class="row gap-3 p-2">
+            <div class="card h-100">
+                <div class="row align-items-center px-3">
+                    <div class="col-md-4 card-body">
+                        <p class="card-title">Spoken English</p>
+                        <p class="title">What you will learn</p>
+                        <p class="text">Basic Vocabulary, Greetings, Interactive Conversations, Past Tense, Present
+                            Tense, Future Tense</p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="duration">Weekly</p>
+                        <p class="hours">3<span>classes</span></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="duration">Course Duration</p>
+                        <p class="hours">1.5<span>hours</span></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="duration">Total Duration</p>
+                        <p class="hours">30<span>hours</span></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="currency">INR</p>
+                        <P class="price1">15000</P>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-100 my-2">
+                <div class="row align-items-center px-3">
+                    <div class="col-md-4 card-body">
+                        <p class="card-title bc">Business Communication</p>
+                        <p class="title">What you will learn</p>
+                        <p class="text">
+                            Basic Vocabulary, Greetings, Interactive Conversations,
+                            Past Tense, Present Tense, Future Tense
+                        </p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <p class="duration">Weekly</p>
+                        <p class="hours">3<span>classes</span></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="duration">Course Duration</p>
+                        <p class="hours">1.5<span>hours</span></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="duration">Total Duration</p>
+                        <p class="hours">30<span>hours</span></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="currency">INR</p>
+                        <P class="price1">18000</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-grp my-5">
+            <div>
+                <p class="text-center button-text ">Please contact us for instalments or discounts</p>
+            </div>
+            <div class="buttons-grp flex-lg-row my-4">
+                <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                    ENQUIRE NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                </button>
+                <label class="or">OR</label>
+                <button class="callus-btn ">CALL US AT <span>98863 90628</span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore Your Child Section  -->
+    <div class="container-fluid  explore">
+        <div class="row">
+            <div class="col-lg-12 d-lg-flex">
+                <div class="col-lg-6 ">
+                    <div class="d-flex justify-content-center img-1 ">
+                        <img class="img-fluid " src="images/img-girl.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <img class="img-fluid my-5 " src="images/fixed-width fixed-height sec-.png" alt="">
+                    <div class="w-100 ">
+                        <p class="heading ">
+                            Get your child to explore foreign language and culture
+                        </p>
+                    </div>
+                    <div class="country-logos d-md-flex my-5">
+                        <img class="img-fluid " src="images/german-small.png" alt="">
+                        <img class="img-fluid mx-lg-5" src="images/spanish-small.png" alt="">
+                    </div>
+                    <div class="d-flex flex-column mb-4">
+                        <p class="title">What they will learn</p>
+                        <p class="sub-title">Reading, Writing, Listening & Speaking</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 ">
+                            <div class="card h-100">
+                                <div class="card-body d-md-flex justify-content-md-around  ">
+                                    <div>
+                                        <p class="duration">Course Duration</p>
+                                        <p class="hours">30<span>hours</span></p>
+                                    </div>
+                                    <div>
+                                        <p class="currency">INR</p>
+                                        <p class="price">13200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-grp my-5 float-lg-start">
+                        <div>
+                            <p class="button-text text-lg-start text-center">
+                                Please contact us for instalments or
+                                discounts
+                            </p>
+                        </div>
+                        <div class="buttons-grp  flex-lg-row my-4">
+                            <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">ENQUIRE
+                                NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i></button>
+                            <label class="or">OR</label>
+                            <button class="callus-btn ">CALL US AT <span>98863 90628</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Batches Section -->
+    <div id="upcomingBatches" class="container upcoming-batches">
+        <br><br><br>
+        <div class="text-center mt-5  ">
+            <h1 class="heading">Upcoming Batches</h1>
+            <p class="sub-heading">Get the basics right. Speak with confidence.</p>
+        </div>
+        <div class="tab">
+            <div class="d-flex col-md-5 col-xs-4 gap-2 ">
+                <button class="tablinks btn btn-outline-primary active flex-grow-1 my-3"
+                    onclick="openLanguage(event, 'Spanish')">
+                    Spanish
+                </button>
+                <button class="tablinks btn  btn-outline-primary flex-grow-1 my-3"
+                    onclick="openLanguage(event, 'German')">
+                    German
+                </button>
+                <button class="tablinks btn btn-outline-primary flex-grow-1 my-3"
+                    onclick="openLanguage(event, 'English')">
+                    English
+                </button>
+            </div>
+        </div>
+
+        <div class="upcoming-batches ">
+            <div id="Spanish" class="tabcontent" style="display: block;">
+                <div class="row col-lg-12 mx-auto">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">12th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday"><span>WEEKDAY</span></h5>
+                                    <div class="underline"></div>
+                                    <p class="date">12th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3  ">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">12th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">12th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday"><span>WEEKDAY</span></h5>
+                                    <div class="underline"></div>
+                                    <p class="date">12th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3  ">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">12th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="German" class="tabcontent">
+                <div class="row col-lg-12  mx-auto  ">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">13th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday"><span>WEEKDAY</span></h5>
+                                    <div class="underline"></div>
+                                    <p class="date">13th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3  ">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">13th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">13th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday"><span>WEEKDAY</span></h5>
+                                    <div class="underline"></div>
+                                    <p class="date">13th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3  ">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">13th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="English" class="tabcontent">
+                <div class="row col-lg-12  mx-auto  ">
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">14th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday"><span>WEEKDAY</span></h5>
+                                    <div class="underline"></div>
+                                    <p class="date">14th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3  ">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">14th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">14th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday"><span>WEEKDAY</span></h5>
+                                    <div class="underline"></div>
+                                    <p class="date">14th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3  ">
+                        <div class="card w-100  ">
+                            <div class="card-body">
+                                <div class="">
+                                    <p class="title">Online</p>
+                                    <h5 class="weekday">WEEKDAY</h5>
+                                    <div class="underline"></div>
+                                    <p class="date">14th Dec 2023</p>
+                                    <p class="timing">10:00am - 02:30pm</p>
+                                    <button class="register-btn mt-5 mb-3 ">
+                                        REGISTER NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- One One Class  -->
+    <div class="container-fluid one-one-class ">
+        <div class="row mx-lg-5 ">
+            <div class="col-lg-12 d-lg-flex">
+                <div class="col-lg-6 p-lg-5 ">
+                    <img class="img-fluid my-5 " src="images/fixed-width fixed-height sec-.png" alt="">
+                    <div class="">
+                        <p class="heading ">
+                            One-One Class
+                        </p>
+                    </div>
+                    <div class="country-logos d-flex my-5   ">
+                        <img class="img-fluid " src="images/german-small.png" alt="">
+                        <img class="img-fluid mx-lg-5" src="images/spanish-small.png" alt="">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-10 col-sm-6   ">
+                            <div class="card">
+                                <div class="card-body d-flex justify-content-around align-items-center   ">
+                                    <div>
+                                        <p class="duration">Course Duration</p>
+                                        <p class="hours">50<span>hours</span></p>
+                                    </div>
+                                    <div>
+                                        <p class="currency">INR</p>
+                                        <p class="price">16000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5 float-lg-start  ">
+                        <div>
+                            <p class="button-text text-lg-start text-center">
+                                Please contact us for instalments or
+                                discounts
+                            </p>
+                        </div>
+                        <div class="buttons-grp flex-lg-row ">
+                            <button class="enquire-btn btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                ENQUIRE
+                                NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                            </button>
+                            <label class="or">OR</label>
+                            <button class="callus-btn ">CALL US AT <span>98863 90628</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="d-flex justify-content-center p-4 mt-lg-5 ">
+                        <img class="img-fluid " src="images/one-one-class.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid check">
+        <div class="row p-4 mb-2    ">
+            <div class="col-lg-6 col-xs-12 d-flex align-items-center justify-content-center p-3     ">
+                <h3 class="title">Check your level of fluency</h3>
+            </div>
+            <div class="col-md-3 col-xs-12 d-flex flex-column ">
+                <p class="language">German</p>
+                <p class="hours1">650<span>INR</span></p>
+            </div>
+            <div class="col-lg-3 col-xs-12 d-flex flex-column ">
+                <p class="language">Spanish</p>
+                <p class="hours1">650<span>INR</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Study Abroad Section -->
+    <div class="container-fluid  explore">
+        <div class="row study-abroad">
+            <div class="col-lg-12 d-lg-flex">
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-center img">
+                        <img class="img-fluid " src="images/img-boy.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid my-5 " src="images/fixed-width fixed-height sec-.png" alt="">
+                    <p class="heading ">Study Abroad Programs</p>
+                    <p class="text">
+                        Interested in Foreign Education - We help students aspiring for further education
+                        abroad and apply to the universities into which they seek admission.
+                    </p>
+                    <div class="my-4 float-lg-start  ">
+                        <div>
+                            <p class="button-text text-lg-start text-center">
+                                Please contact us for instalments or
+                                discounts
+                            </p>
+                        </div>
+                        <div class="buttons-grp  flex-lg-row my-4">
+                            <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                                ENQUIRE
+                                NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                            </button>
+                            <label class="or">OR</label>
+                            <button class="callus-btn ">CALL US AT <span>98863 90628</span></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Image Gallery Section -->
+    <div class="container gallery">
+        <div>
+            <p class="title">Gallery</p>
+            <p class="sub-title">Get the basics right. Speak with confidence.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 mr-5">
+                <a href="#" class=" ">
+                    <img class="img-fluid img-thumbnail h-100 w-100" src="images/img1.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 mr-5">
+                <a href="#" class=" ">
+                    <img class="img-fluid img-thumbnail h-100 w-100" src="images/img2.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 mr-5">
+                <a href="#" class=" ">
+                    <img class="img-fluid img-thumbnail h-100 w-100" src="images/img3.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 mr-5">
+                <a href="#" class=" ">
+                    <img class="img-fluid img-thumbnail h-100 w-100" src="images/img4.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5 mr-5">
+                <a href="#" class=" ">
+                    <img class="img-fluid img-thumbnail h-100 w-100" src="images/img5.png" alt="">
+                </a>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-12 mb-5 mr-5">
+                <a href="#" class=" ">
+                    <img class="img-fluid img-thumbnail h-100 w-100" src="images/img6.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="container-fluid footer">
+        <div class="text-center d-flex justify-content-center  ">
+            <img class="img-fluid w-25 footer-logo d-md-block d-lg-none" src="images/footer-logo.png" alt="">
+            <img class="img-fluid w-25  footer-logo d-lg-flex d-none  " src="images/footer-logo.png" alt="">
+        </div>
+        <div class="text-center">
+
+            <p class="title-sm d-md-block d-lg-none fs-3  pb-2">Experience the new way of learning</p>
+            <p class="title d-none d-lg-block my-4">Experience the new way of learning</p>
+            <p class="sub-title">It's never too late.</p>
+        </div>
+        <div class="group-1 my-lg-5 d-flex flex-column flex-lg-row  justify-content-around  align-items-center gap-5 ">
+            <div class=" gap-3  buttons-grp  flex-lg-row">
+                <button class="enquire" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    ENQUIRE NOW<i class="fa-sharp fa-solid fa-arrow-right-long fa-sm"></i>
+                </button>
+                <label class="or">OR</label>
+                <button class="callus-btn1 btn">CALL US AT <span>98863 90628</span></button>
+            </div>
+            <div class="email ">
+                <div class="email-id">
+                    <i class="fa-solid fa-envelope fa-xl" style="color: #9AC979;"></i>
+                    info@raysacademy.co.in
+                </div>
+            </div>
+            <img class=" d-md-block d-lg-none w-100" src="images/hr.png" alt="">
+        </div>
+        <div class="d-flex position-relative col-sm-12 my-5 d-md-block d-lg-none ">
+            <div class="links-small px-4 ">
+                <a href="#home">Home</a>
+                <a href="#courseDetails">Course Details</a>
+                <a href="#upcomingBatches">Upcoming Batches</a>
+                <a href="">Add on Services</a>
+            </div>
+            <div class="position-absolute bottom-0 end-0">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61554082314031">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #9AC979;"></i>
+                </a>
+                <a target="_blank"
+                    href="https://www.linkedin.com/in/rays-academy-the-language-learning-school-8b4a4a298/">
+                    <i class="fa-brands fa-linkedin fa-xl px-2" style="color:#9AC979;"></i>
+                </a>
+                <a target="_blank" href=""><i class="fa-brands fa-instagram fa-xl" style="color: #9AC979;"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-twitter fa-xl" style="color: #9AC979;"></i></a>
+            </div>
+        </div>
+        <div class="d-md-block d-lg-none">
+            <p class="made-small my-3">All Right Reserved &copy; Rays Academy</p>
+            <p class="made-small my-3">Made in “Namma Bengaluru”</p>
+        </div>
+
+        <div class="options d-flex justify-content-between mx-5 my-4 d-none d-lg-flex  ">
+            <div class="links d-flex gap-5 align-items-center ">
+                <a href="#home">Home</a>
+                <a href="#courseDetails">Course Details</a>
+                <a href="#upcomingBatches">Upcoming Batches</a>
+                <a href="#">Add on Services</a>
+            </div>
+            <div class="social d-flex gap-5 ">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61554082314031">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #9AC979;"></i>
+                </a>
+                <a target="_blank"
+                    href="https://www.linkedin.com/in/rays-academy-the-language-learning-school-8b4a4a298/">
+                    <i class="fa-brands fa-linkedin fa-xl" style="color: #9AC979;"></i>
+                </a>
+                <a target="_blank" href=""><i class="fa-brands fa-instagram fa-xl" style="color: #9AC979;"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-twitter fa-xl" style="color: #9AC979;"></i></a>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="bottom-line d-flex justify-content-between mx-5 d-none d-lg-flex pt-3  ">
+            <p class="rights">All Right Reserved &copy; Rays Academy</p>
+            <p class="made">Made in “Namma Bengaluru”</p>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enquiryModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-fullscreen-sm-down ">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h1 class="modal-title fs-5 text-center" id="staticBackdropLabel">Admission Open</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <form1>
+                    <div id="header-modal" class="modal-body ">
+                        <div class="row">
+                            <div class="col-md-4 mb-4 ">
+                                <div class="form-group">
+                                    <label for="formGroupInput1">Name</label>
+                                    <input type="text" class="form-control" id="formGroupInput1" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 ">
+                                <div class="form-group">
+                                    <label for="formGroupEmail">Email</label>
+                                    <input type="email" class="form-control" id="formGroupEmail" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 ">
+                                <div class="form-group">
+                                    <label for="formGroupMobile">Mobile</label>
+                                    <input type="mobile" class="form-control" id="formGroupMobile" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 ">
+                            <div class="col-md-4 ">
+                                <div class="dropdown">
+                                    <label for="">Select Course</label>
+                                    <div class="select">
+                                        <span class="selected">Option</span>
+                                        <div class="caret"></div>
+                                    </div>
+                                    <ul class="menu dropdown-menu ">
+                                        <li>Spanish</li>
+                                        <li>German</li>
+                                        <li>English</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="dropdown">
+                                    <label for="">Select Level</label>
+                                    <div class="select">
+                                        <span class="selected">Option</span>
+                                        <div class="caret"></div>
+                                    </div>
+                                    <ul id="pol" class="menu dropdown-menu  ">
+                                        <li>A1</li>
+                                        <li>A2</li>
+                                        <li>B1</li>
+                                        <li>B2</li>
+                                        <li>C1</li>
+                                        <li>C2</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3  ">
+                                <button type="button" class=" btn btn-success w-100 h-100" data-bs-toggle="button"
+                                    autocomplete="off" data-bs-dismiss="modal">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form1>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        //    Navbar Close
+        const navLinks = document.querySelectorAll('.coll')
+        const menuToggle = document.getElementById('navbarNavAltMarkup')
+        const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => { bsCollapse.toggle() })
+        })
+
+
+
+
+
+        // Header Hide On Scroll
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+
+
+
+
+        function openLanguage(evt, languageName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(languageName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        const dropdowns = document.querySelectorAll('.dropdown');
+        dropdowns.forEach(dropdown => {
+            const select = dropdown.querySelector('.select');
+            const caret = dropdown.querySelector('.caret');
+            const menu = dropdown.querySelector('.menu');
+            const options = dropdown.querySelectorAll('.menu li');
+            const selected = dropdown.querySelector('.selected');
+
+            select.addEventListener('click', () => {
+                select.classList.toggle('select-clicked');
+                caret.classList.toggle('caret-rotate');
+                menu.classList.toggle('menu-open');
+            });
+
+            options.forEach(option => {
+                option.addEventListener('click', () => {
+                    selected.innerText = option.innerText;
+                    select.classList.remove('select-clicked');
+                    caret.classList.remove('caret-rotate');
+                    menu.classList.remove('menu-open');
+
+                    options.forEach(option => {
+                        option.classList.remove('active');
+                    });
+                    option.classList.add('active');
+                    option.classList.remove('active');
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
